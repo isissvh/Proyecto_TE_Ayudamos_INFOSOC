@@ -1,0 +1,200 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: var(--bg-primary);
+}
+
+/* Estilos para el logo */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Espacio entre el logo y el título */
+}
+
+.logo {
+  height: 40px; /* Ajusta según el tamaño que desees */
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para el nombre */
+.nombre-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Espacio entre el logo y el título */
+}
+
+.nombre {
+  height: 40px; /* Ajusta según el tamaño que desees */
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.nombre:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .logo-container {
+    margin-bottom: 10px;
+  }
+  .nombre-container {
+    margin-bottom: 10px;
+  }
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--accent-color);
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 0;
+  background-color: var(--bg-secondary);
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--accent-color);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--text-secondary);
+}
+
+.cta-button {
+  padding: 12px 30px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: var(--accent-hover);
+}
+
+/* nosotros Section */
+.nosotros {
+  padding: 60px 0;
+}
+
+.servicios h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: var(--text-primary);
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.nosotros-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.nosotros-card {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: var(--card-bg);
+}
+
+.nosotros-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--card-shadow);
+}
+
+.nosotros-card h3 {
+  margin-bottom: 10px;
+  color: var(--accent-color);
+}
+
+.nosotros-card p {
+  margin-bottom: 20px;
+  color: var(--text-secondary);
+}
+
+.nosotros-card button {
+  padding: 8px 16px;
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nosotros-card button:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+/* Header theme toggle container */
+.header-controls {
+  display: flex;
+  align-items: center;
+}

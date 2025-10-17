@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-force-color-mode="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light only">
+    <title>Vite + React</title>
+    <style>
+      /* Estilos inline críticos para forzar modo claro */
+      html[data-force-color-mode="light"] {
+        color-scheme: light !important;
+      }
+      
+      @media (prefers-color-scheme: dark) {
+        html[data-force-color-mode="light"] body {
+          background-color: #ffffff !important;
+          color: #333333 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
