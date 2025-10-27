@@ -15,7 +15,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  background-color: #ffffff !important;
+  background-color: #000000 !important;
   color: #333333 !important;
   border-color: #dddddd !important;
 }

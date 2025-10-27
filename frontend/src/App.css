@@ -1,5 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
-  max-width: 1200px;
+  max-width: 90vw;
   margin: 0 auto;
   padding: 0 20px;
   background-color: var(--bg-primary);
@@ -9,13 +15,20 @@
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 15px; /* Espacio entre el logo y el título */
+  gap: 20px; /* Espacio entre el logo y el título */
+  margin-top: 10px;
 }
 
-.logo {
-  height: 40px; /* Ajusta según el tamaño que desees */
+.logo-icon {
+  height: 50px; /* Ajusta según el tamaño que desees */
   width: auto;
   transition: transform 0.3s ease;
+}
+
+.logo-text {
+  height: 70px;  
+  width: auto;   
+  transform: translateY(10px);
 }
 
 .logo:hover {
@@ -37,6 +50,33 @@
 
 .nombre:hover {
   transform: scale(1.05);
+}
+
+/* seccion de preguntas */
+.info-section {
+  padding: 60px 0; 
+  background-color: #fdfcfa; 
+  
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 40px; 
+}
+
+.info-columna h2 {
+  font-size: 2rem;
+  color: var(--accent-color); 
+  margin-bottom: 15px;
+}
+
+.info-columna p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.7; 
 }
 
 @media (max-width: 768px) {

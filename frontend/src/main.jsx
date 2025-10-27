@@ -1,14 +1,29 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import { ThemeProvider } from './ThemeContext'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from './ThemeContext' 
+
+//páginas
+import App from './App.jsx' 
+import SobreNosotros from './pages/SobreNosotros'; 
+
+
+//estilos
 import './index.css'
 import './App.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
+    <BrowserRouter> 
+      <ThemeProvider> 
+        <Routes> 
+          <Route path="/" element={<App />}>
+            <Route path="/sobre-nosotros" element={<SobreNosotros />} />
+            {/* <Route path="/servicios" element={<Servicios />} /> */}
+            {/* <Route path="/contacto" element={<Contacto />} /> */}
+          </Route>
+        </Routes>
+      </ThemeProvider>
+    </BrowserRouter>
   </React.StrictMode>,
 )

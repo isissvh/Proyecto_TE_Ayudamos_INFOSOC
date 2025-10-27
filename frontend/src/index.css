@@ -1,12 +1,12 @@
 :root {
   /* Variables de tema claro */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f9f9f9;
+  --bg-primary: #f9f9f4;
+  --bg-secondary: #e0dbf3;
   --text-primary: #333333;
   --text-secondary: #666666;
-  --accent-color: #ffd4a3;
+  --accent-color: #5c4b7c;
   --accent-hover: #ffe1bf;
-  --border-color: #eeeeee;
+  --border-color: #d699f2;
   --card-bg: #ffffff;
   --card-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --hover-bg: rgba(0, 0, 0, 0.05);
@@ -14,7 +14,7 @@
 
 [data-theme='dark'] {
   /* Variables de tema oscuro */
-  --bg-primary: #121212;
+  --bg-primary: #000000;
   --bg-secondary: #1e1e1e;
   --text-primary: #f0f0f0;
   --text-secondary: #b0b0b0;
