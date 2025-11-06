@@ -38,6 +38,9 @@ function App() {
                   <Link to="/sobre-nosotros">Sobre Nosotros</Link>
                 </li>
                 <li>
+                  <Link to="/guia">Guía</Link>
+                </li>
+                <li>
                   <Link to="/servicios">Servicios</Link>
                 </li>
                 <li>

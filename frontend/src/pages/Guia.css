@@ -1,0 +1,47 @@
+.guia-body {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.menuItems-container {
+  width: 200px;
+  flex-shrink: 0; /* evita que se encoja */
+}
+
+.guia-menuItems {
+  position: fixed;
+  width: 200px;
+}
+
+.guia-menuItems a {
+  display: block;
+  border-radius: 5px;
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 12px;
+}
+
+.guia-menuItems a:hover {
+  background-color: rgb(212, 212, 212);
+  transition: background-color 0.7s ease;
+}
+
+.guia-items-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.guia-itemsContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.itemPrincipal{
+    top:0;
+    position: sticky;
+    background-color:#f9f9f4;
+    width: 100%;
+}
