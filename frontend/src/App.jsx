@@ -6,6 +6,7 @@ import nombre from './assets/newnombre.png'
 import './App.css'
 
 function App() {
+
   const [isLoading, setIsLoading] = useState(true)
   const [content, setContent] = useState([])
 
@@ -86,6 +87,24 @@ function App() {
               </div>
             </div>
           </div>
+        </section>
+
+        <section className="nosotros" id="nosotros">
+          <h2>Nuestros Servicios</h2>
+          
+          {isLoading ? (
+            <div className="loading">Cargando servicios...</div>
+          ) : (
+            <div className="nosotros-grid">
+              {content.map(item => (
+                <div className="nosotros-card" key={item.id}>
+                  <h3>{item.title}</h3>
+                  <p>{item.description}</p>
+                  <button>Ver detalles</button>
+                </div>
+              ))}
+            </div>
+          )}
         </section>
       </main>
 

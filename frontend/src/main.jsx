@@ -7,10 +7,13 @@ import { ThemeProvider } from './ThemeContext'
 import App from './App.jsx' 
 import SobreNosotros from './pages/SobreNosotros'; 
 import { Guia } from './pages/Guia.jsx';
+import Contacto from './pages/contacto.jsx';
   
 //estilos
 import './index.css'
 import './App.css'
+import './highlight.css';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path="/sobre-nosotros" element={<SobreNosotros />} />
             <Route path="/guia" element={<Guia />} />
             {/* <Route path="/servicios" element={<Servicios />} /> */}
-            {/* <Route path="/contacto" element={<Contacto />} /> */}
+            <Route path="/contacto" element={<Contacto />} />  
           </Route>
         </Routes>
       </ThemeProvider>
