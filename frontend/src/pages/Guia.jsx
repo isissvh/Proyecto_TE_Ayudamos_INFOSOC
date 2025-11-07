@@ -1,5 +1,8 @@
 import React from "react";
 import "./Guia.css";
+import { Link, Outlet } from 'react-router-dom';
+import { Credencial } from "./Credencial";
+
 
 export function Guia() {
   return (
@@ -8,8 +11,23 @@ export function Guia() {
         <div className="menuItems-container">
           <nav className="guia-menuItems">
             <a href="#QueEsElAutismo">¿Qué es el autismo?</a>
-            <a href="#CredencialDeDiscapacidad">Credencial de discapacidad</a>
-            <a href="#HolaChavales">Slay y la queso</a>
+            <p>Señales de alerta</p>
+            <p>Primeros pasos</p>
+            <p>Qué test me sirven</p>
+            <p>Diagnostico oficial slay</p>
+            <p>Profesionales</p>
+            <p>Leyes</p>
+            <p>Beneficios</p>
+            <p>PIE</p>
+            <p>Grados</p>
+            <p>Diagnostico: renovacion (pie)</p>
+            <p>Autismo severo</p>
+            <p>Tia sombra</p>
+            <p>Tips: Juguetes, actividades y cancelacion de ruido</p>
+            <Link to="/credencial"> Credencial de discapacidad</Link>
+            <a href="#HolaChavales">Día a día</a>
+            <p>PAPU</p>
+            
           </nav>
         </div>
         <section className="guia-items-parent">
