@@ -7,7 +7,7 @@ import { ThemeProvider } from './ThemeContext'
 import App from './App.jsx' 
 import SobreNosotros from './pages/SobreNosotros'; 
 import { Guia } from './pages/Guia.jsx';
-import Contacto from './pages/contacto.jsx';
+import PáginadePrueba from './pages/contacto.jsx';
   
 //estilos
 import './index.css'
@@ -23,8 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/" element={<App />}>
             <Route path="/sobre-nosotros" element={<SobreNosotros />} />
             <Route path="/guia" element={<Guia />} />
-            {/* <Route path="/servicios" element={<Servicios />} /> */}
-            <Route path="/contacto" element={<Contacto />} />  
+            <Route path="/contacto" element={<PáginadePrueba/>} /> 
           </Route>
         </Routes>
       </ThemeProvider>

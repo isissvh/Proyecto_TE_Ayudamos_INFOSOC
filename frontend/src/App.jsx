@@ -10,17 +10,6 @@ function App() {
   const [isLoading, setIsLoading] = useState(true)
   const [content, setContent] = useState([])
 
-  useEffect(() => {
-    setTimeout(() => {
-      setContent([
-        { id: 1, title: 'Servicio 1', description: 'Descripción del servicio 1' },
-        { id: 2, title: 'Servicio 2', description: 'Descripción del servicio 2' },
-        { id: 3, title: 'Servicio 3', description: 'Descripción del servicio 3' },
-      ])
-      setIsLoading(false)
-    }, 1500)
-  }, [])
-
   return (
     <div className="container">
       <header>
@@ -42,10 +31,7 @@ function App() {
                   <Link to="/guia">Guía</Link>
                 </li>
                 <li>
-                  <Link to="/servicios">Servicios</Link>
-                </li>
-                <li>
-                  <Link to="/contacto">Contacto</Link>
+                  <Link to="/contacto">Página de prueba</Link>
                 </li>
               </ul>
           </nav>
@@ -88,26 +74,7 @@ function App() {
             </div>
           </div>
         </section>
-
-        <section className="nosotros" id="nosotros">
-          <h2>Nuestros Servicios</h2>
-          
-          {isLoading ? (
-            <div className="loading">Cargando servicios...</div>
-          ) : (
-            <div className="nosotros-grid">
-              {content.map(item => (
-                <div className="nosotros-card" key={item.id}>
-                  <h3>{item.title}</h3>
-                  <p>{item.description}</p>
-                  <button>Ver detalles</button>
-                </div>
-              ))}
-            </div>
-          )}
-        </section>
       </main>
-
       <footer>
         <p>&copy; 2025 TE Ayudamos. Todos los derechos reservados.</p>
       </footer>
