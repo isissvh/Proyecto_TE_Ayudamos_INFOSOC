@@ -138,7 +138,7 @@ export function Credencial() {
           envía la Credencial y la Certificación de Discapacidad al domicilio (demora referencial: ~5 días hábiles).
         </p>
 
-        <h3>4. Beneficios de tener la Credencial de Discapacidad</h3>
+        <h3>Beneficios de tener la Credencial de Discapacidad</h3>
         <p>
           Los menores de edad inscritos en el RND acceden a diversos beneficios (según normativa y disponibilidad vigentes):
         </p>
