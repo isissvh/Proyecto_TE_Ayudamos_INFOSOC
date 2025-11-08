@@ -23,7 +23,10 @@ function SobreNosotros() {
         <section className="sobre-seccion">
           <h2>Nuestra Historia</h2>
           <p>
-            "TE Ayudamos" nació a partir de
+            "TE Ayudamos" nació a partir de la necesidad de brindar apoyo a padres y tutores de niños y adolescentes dentro del Espectro Autista, todo a partir
+            de la experiencia personal de dos de nuestros fundadores. Al enfrentar los desafíos de encontrar información confiable y recursos adecuados,
+            decidimos crear una plataforma que centralizara esta información, facilitando el acceso a recursos esenciales y ofreciendo una guía clara para quienes
+            navegan por este camino.
           </p>
         </section>
 

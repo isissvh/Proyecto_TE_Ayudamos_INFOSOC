@@ -7,8 +7,9 @@ function Inicio() {
       <section className="hero">
         <h2>Entendiendo y celebrando la neurodiversidad</h2>
         <p>
-          Nuestra mision es entregar un espacio seguro con informacion clara
-          sobre el espectro neurodivergente
+          Nuestra misión es entregar un espacio seguro con información clara
+          sobre el espectro neurodivergente, siendo mucho más específicos, el
+          Trastorno del Espectro Autista (TEA).
         </p>
         <button className="cta-button">Saber más</button>
       </section>
