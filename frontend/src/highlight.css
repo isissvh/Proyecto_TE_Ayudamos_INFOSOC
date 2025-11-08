@@ -1,74 +1,95 @@
-body {
-  font-family: system-ui, sans-serif;
-  background: #fafafa;
-  color: #333;
-  line-height: 1.6;
-}
-
 .highlight-article {
-  background: white;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* max-width: 800px; */
+  margin: 0 auto;
+  line-height: 1.65;
+  font-size: 1.05rem;
 }
 
 .highlight-title {
-  font-size: 1.6em;
-  margin-bottom: 1em;
   text-align: center;
-  color: #222;
+  margin-bottom: 1em;
 }
+
 
 .highlight {
   position: relative;
-  text-decoration: underline;
-  text-decoration-color: #facc15;
-  text-decoration-thickness: 3px;
-  cursor: pointer;
-}
-
-.highlight:hover {
-  background: #fef9c3;
+  background: linear-gradient(transparent 85%, rgba(179, 121, 234, 0.9) 0);
+  cursor: help;
+  outline: none;
 }
 
 .highlight .popup {
   position: absolute;
-  top: 120%;
   left: 0;
-  background: white;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
-  padding: 10px 14px;
-  width: 240px;
-  font-size: 0.9em;
-  color: #444;
-  display: none;
+  bottom: 120%;
+  transform: translateY(6px) scale(.98);
+  background: #111;
+  color: #fff;
+  font-size: .9rem;
+  line-height: 1.4;
+  padding: .6rem .75rem;
+  border-radius: .5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,.25);
+  width: min(320px, 85vw);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .18s ease, transform .18s ease;
   z-index: 10;
 }
-
-.highlight:hover .popup {
-  display: block;
-  animation: fadeIn 0.2s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-5px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.highlight .popup::before {
+.highlight .popup::after {
   content: "";
   position: absolute;
-  top: -6px;
-  left: 10px;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid white;
+  top: 100%;
+  left: 14px;
+  border: 8px solid transparent;
+  border-top-color: #111;
 }
+
+.highlight:hover .popup,
+.highlight:focus .popup,
+.highlight:focus-visible .popup {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@media (max-width: 560px) {
+  .highlight .popup { left: 50%; transform: translate(-50%, 6px) scale(.98); }
+  .highlight:hover .popup,
+  .highlight:focus .popup,
+  .highlight:focus-visible .popup { transform: translate(-50%, 0) scale(1); }
+}
+.highlight.as-button {
+  appearance: none;
+  border: 0;
+  padding: 0 .1em;
+  margin: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(transparent 70%, rgba(255, 230, 120, .9) 0);
+}
+.highlight.as-button:focus-visible {
+  outline: 2px solid #444;
+  outline-offset: 2px;
+}
+
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+  backdrop-filter: blur(2px);
+  z-index: 999;
+}
+
+.highlight-article ul,
+.highlight-article ol {
+  padding-inline-start: 1.75rem;
+  margin-block: .5rem 1rem;
+}
+
+.highlight-article li { 
+  margin-block: .25rem;
+}
+

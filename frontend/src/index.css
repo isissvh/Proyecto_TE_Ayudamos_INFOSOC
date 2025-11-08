@@ -4,26 +4,13 @@
   --bg-secondary: #e0dbf3;
   --text-primary: #333333;
   --text-secondary: #666666;
-  --accent-color: #5c4b7c;
-  --accent-hover: #ffe1bf;
+  --accent-color: hsl(261, 25%, 39%);
+  --accent-hover: #441d66;
   --border-color: #d699f2;
   --card-bg: #ffffff;
   --card-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --hover-bg: rgba(0, 0, 0, 0.05);
-}
-
-[data-theme='dark'] {
-  /* Variables de tema oscuro */
-  --bg-primary: #000000;
-  --bg-secondary: #1e1e1e;
-  --text-primary: #f0f0f0;
-  --text-secondary: #f0f0f0;
-  --accent-color: #5c4b7c;
-  --accent-hover: #ffffff;
-  --border-color: #ffffff;
-  --card-bg: #1e1e1e;
-  --card-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  --hover-bg: rgba(255, 255, 255, 0.05);
+  color-scheme: light;
 }
 
 * {
