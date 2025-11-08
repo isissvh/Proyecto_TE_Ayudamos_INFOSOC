@@ -6,7 +6,8 @@ function Inicio() {
     <>
         <section className="hero">
           <h2>Entendiendo y celebrando la neurodiversidad</h2>
-          <p>Nuestra mision es entregar un espacio seguro con informacion clara sobre el espectro neurodivergente</p>
+          <p>Nuestra misión es entregar un espacio seguro con información clara sobre la neurodiversidad, y siendo 
+            mucho más específicos con el Espectro Austista</p>
         </section>
 
         <section className="info-section">
