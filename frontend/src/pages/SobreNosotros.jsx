@@ -13,7 +13,7 @@ function SobreNosotros() {
           <p className="subtitulo">
             Nuestra misión es crear un espacio seguro y accesible, 
             entregando información clara, respetuosa y basada en 
-            evidencia sobre el espectro neurodivergente.
+            evidencia sobre el Espectro Autista.
           </p>
         </div>
       </section>
@@ -31,7 +31,8 @@ function SobreNosotros() {
         <section className="sobre-seccion">
           <h2>Conoce al Equipo</h2>
           <p>
-            Somos un grupo de estudiantes de la Universidad Federico Santa Maria (poner comas ya tengo tuto)
+            Somos un grupo de estudiantes de Ingeniería Civil Informática de la Universidad Técnica Federico Santa María con motivación en ayudar a padres y/o tutores de
+            infantes y adolescentes dentro del Espectro Austista.
           </p>
           
           <div className="equipo-grid">
@@ -72,9 +73,10 @@ function SobreNosotros() {
 
         {/* 4. SECCIÓN ALIANZAS (AQUÍ REFUERZAS "CERTIFICADA") */}
         <section className="sobre-seccion">
-          <h2>Nuestras Alianzas y Respaldo</h2>
+          <h2>Nuestra Alianza y Respaldo</h2>
           <p>
-            futuras alianzas...
+            Para este proyecto contamos con la alianza y respaldo de una gran profesional, Makarena Gonzáles, Fonoaudióloga en el Valle de Aconcagua, quien nos ha aportado con su experiencia,
+            vocación y conocimientos para tener un respaldo y veracidad en la información que proporcionamos.
           </p>
           {/* Aquí puedes poner los logos de tus alianzas */}
           <div className="alianzas-logos">

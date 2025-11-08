@@ -7,7 +7,6 @@ function Inicio() {
         <section className="hero">
           <h2>Entendiendo y celebrando la neurodiversidad</h2>
           <p>Nuestra mision es entregar un espacio seguro con informacion clara sobre el espectro neurodivergente</p>
-          <button className="cta-button">Saber más</button>
         </section>
 
         <section className="info-section">
@@ -19,9 +18,7 @@ function Inicio() {
                 <p>
                   La neurodiversidad es la idea de que las diferencias en el cerebro humano son 
                   naturales y normales. Incluye condiciones como el Trastorno del Espectro Autista (TEA), TDAH, dislexia y más. 
-                  La neurodiversidad nos permite apreciar la perspectiva unica de cada persona.
-
-    
+                  La neurodiversidad nos permite apreciar la perspectiva única de cada persona.    
                 </p>
               </div>
               
