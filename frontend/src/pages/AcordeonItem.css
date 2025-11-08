@@ -1,0 +1,61 @@
+/* src/components/AcordeonItem.css */
+
+.acordeon-item {
+  background-color: #f7f5fa;
+  border: 1px solid #e0d7ed;
+  border-radius: 12px; 
+  margin-bottom: 15px;
+  overflow: hidden; 
+}
+
+/* boton de la pregnunta */
+.acordeon-trigger {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+  padding: 18px 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.acordeon-title {
+  font-size: 1.3rem; 
+  font-weight: 600; 
+  color: #333; 
+}
+
+/* el + */
+.acordeon-icon {
+  font-size: 2rem;
+  font-weight: 300; 
+  color: #673ab7;
+  transition: transform 0.2s ease-out; 
+}
+
+/* contenedor de las respuestas*/
+.acordeon-content {
+  max-height: 0; 
+  overflow: hidden;
+  transition: max-height 0.3s ease-out; 
+}
+
+.acordeon-content-inner {
+  padding: 0 24px 24px 24px; 
+  line-height: 1.7;
+  color: #555;
+}
+
+/* --- ESTADO ABIERTO --- */
+
+/* cuando el acordeon esta en la clase open */
+.acordeon-item.open .acordeon-content {
+  max-height: 1000px; 
+}
+
+/* rotacion del + */
+.acordeon-item.open .acordeon-icon {
+  transform: rotate(45deg);
+}

@@ -1,20 +1,26 @@
 /* src/pages/SobreNosotros.css */
 
-/* 1. Hero de la página (Misión) */
-.sobre-hero {
-  background-color: var(--bg-secondary); 
+/* 1. mision */
+.info-caja{
+  background-color: #f7f5fa;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e0d7ed;
+
+  padding: 24px 30px;
+  margin: 50px auto;
+  max-width: 90%;
   text-align: center;
-  padding: 80px 20px;
-  margin-bottom: 60px; 
+
 }
 
-.sobre-hero h1 {
-  font-size: 2.8rem;
+.info-texto h1 {
+  font-size: 2.5rem;
   color: var(--accent-color); 
   margin-bottom: 15px;
 }
 
-.sobre-hero .subtitulo {
+.info-texto .subtitulo {
   font-size: 1.3rem;
   color: var(--text-secondary);
   max-width: 750px;
@@ -27,18 +33,18 @@
   padding: 0 20px;
 }
 
-.sobre-seccion h2 {
+.info-caja h2 {
   font-size: 2.2rem;
-  color: var(--text-primary);
+  color: var(--accent-color);
   text-align: center;
   margin-bottom: 25px;
 }
 
 .sobre-seccion p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: var(--text-secondary);
   line-height: 1.7;
-  max-width: 800px; 
+  max-width: 80%; 
   margin: 0 auto 30px auto; 
   text-align: center;
 }
@@ -66,18 +72,26 @@
 }
 
 /* Placeholder para la foto de perfil */
-.equipo-card .placeholder-img {
-  width: 130px;
-  height: 130px;
+.placeholder-img {
+  width: 150px; 
+  height: 150px; 
   border-radius: 50%; 
-  background-color: var(--border-color);
-  margin: 0 auto 20px auto;
-  
-  /* Si usas una <img> real, descomenta esto */
-  /* object-fit: cover; */
-  /* border: 3px solid var(--accent-color); */
+  overflow: hidden;   /* eto borra el contenido fuera el circulo  */
+  background-color: #d1c4e9; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 auto 15px auto; 
+  border: 3px solid var(--accent-color); 
 }
 
+/* Estilos para la imagen dentro del círculo */
+.placeholder-img img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  display: block; 
+}
 .equipo-card h3 {
   font-size: 1.4rem;
   color: var(--accent-color);
