@@ -1,5 +1,5 @@
 import React from "react";
-import "../highlight.css";
+import "../Styles/highlight.css";
 
 
 export default function HighlightArticle({ title, children }) {

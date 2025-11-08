@@ -1,5 +1,5 @@
 import React from "react";
-import "../highlight.css";
+import "../Styles/highlight.css";
 import HighlightArticle from "../components/HighlightArticle.jsx";
 import Mark from "../components/Mark.jsx";
 
