@@ -2,7 +2,7 @@ import React from "react";
 import "./Guia.css";
 import { Link, Outlet } from 'react-router-dom';
 import { Credencial } from "./Credencial";
-
+import { Diadia } from "./diadia";
 
 export function Guia() {
   return (
@@ -25,7 +25,7 @@ export function Guia() {
             <p>Tia sombra</p>
             <p>Tips: Juguetes, actividades y cancelacion de ruido</p>
             <Link to="/credencial"> Credencial de discapacidad</Link>
-            <a href="#HolaChavales">Día a día</a>
+            <Link to="/diadia">Dia a dia</Link>
             <p>PAPU</p>
             
           </nav>

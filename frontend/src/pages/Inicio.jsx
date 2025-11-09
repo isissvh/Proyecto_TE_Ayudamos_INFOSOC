@@ -1,7 +1,9 @@
 import React from "react";
 import '../styles/Inicio.css'
+import { useNavigate } from "react-router-dom";
 
 function Inicio() {
+  const navigate = useNavigate();
   return (
     <>
       <section className="hero">
@@ -11,7 +13,7 @@ function Inicio() {
           sobre el espectro neurodivergente, siendo mucho más específicos, el
           Trastorno del Espectro Autista (TEA).
         </p>
-        <button className="cta-button">Saber más</button>
+        <button className="cta-button" onClick={()=> navigate('/Guia')}>Saber más</button>
       </section>
 
       <section className="info-section">

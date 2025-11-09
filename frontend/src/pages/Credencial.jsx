@@ -62,10 +62,13 @@ export function Credencial() {
                 Informe Biomédico Funcional
               </Mark>
               : elaborado por un profesional de la salud o educación (p. ej., pediatra, médico tratante,
-              terapeuta ocupacional, kinesiólogo, fonoaudiólogo o{" "}
+              terapeuta ocupacional,  {" "}
               <Mark tip="Puede incluir antecedentes del Programa de Integración Escolar (PIE) del establecimiento.">
+
+                
                 educador diferencial
               </Mark>
+              , kinesiólogo o fonoaudiólogo
               ).
             </li>
             <li>
@@ -178,7 +181,9 @@ export function Credencial() {
               <Mark tip="Modificaciones necesarias y razonables para garantizar acceso y evaluación en igualdad de condiciones.">
                 ajustes razonables
               </Mark>{" "}
-              en clases y evaluaciones (incluida{" "}
+              en clases y evaluaciones 
+              <br/>
+              (incluida{" "}
               <Mark tip="Prueba de Acceso a la Educación Superior; contempla adecuaciones para postulantes con discapacidad.">
                 PAES
               </Mark>

@@ -38,7 +38,7 @@
 /* contenedor de las respuestas*/
 .acordeon-content {
   max-height: 0; 
-  overflow: hidden;
+  overflow: visible;
   transition: max-height 0.3s ease-out; 
 }
 
