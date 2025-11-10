@@ -10,6 +10,7 @@ import PáginadePrueba from "./pages/contacto.jsx";
 import { Credencial } from "./pages/Credencial.jsx";
 import Inicio from "./pages/Inicio.jsx";
 import { Diadia } from "./pages/diadia.jsx";
+import { SenalesDeAlerta } from "./pages/SenalesDeAlerta.jsx";
 
 //estilos
 import "./Styles/index.css";
@@ -25,8 +26,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/guia" element={<Guia />} />
           <Route path="/contacto" element={<PáginadePrueba />} />
           <Route path="/credencial" element={<Credencial />} />
-          {/* <Route path="/servicios" element={<Servicios />} /> */}
           <Route path="/diadia" element={<Diadia />} />
+          <Route path="/senalesdealerta" element={<SenalesDeAlerta />} />
         </Route>
       </Routes>
     </BrowserRouter>

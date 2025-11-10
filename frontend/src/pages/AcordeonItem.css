@@ -46,6 +46,7 @@
   padding: 0 24px 24px 24px; 
   line-height: 1.7;
   color: #555;
+  list-style-position: inside;
 }
 
 /* --- ESTADO ABIERTO --- */
