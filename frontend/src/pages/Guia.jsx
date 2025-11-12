@@ -4,6 +4,7 @@ import { Link, Outlet } from 'react-router-dom';
 import { Credencial } from "./Credencial";
 import { Diadia } from "./diadia";
 import { SenalesDeAlerta } from "./SenalesDeAlerta";
+import { PrimerosPasos } from "./PrimerosPasos";
 
 export function Guia() {
   return (
@@ -13,7 +14,7 @@ export function Guia() {
           <nav className="guia-menuItems">
             <a href="#QueEsElAutismo">¿Qué es el autismo?</a>
             <Link to="/senalesdealerta">Señales de alerta</Link>
-            <p>Primeros pasos</p>
+            <Link to="/primerospasos">Primeros pasos</Link>
             <p>Qué test me sirven</p>
             <p>Diagnostico oficial slay</p>
             <p>Profesionales</p>
