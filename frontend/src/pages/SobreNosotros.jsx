@@ -53,7 +53,6 @@ function SobreNosotros() {
                 <img src={fotoToto} alt="Foto de Héctor Chanampe" />
               </div>
               <h3>[Héctor Chanampe]</h3>
-              <p className="rol">[rol]</p>
             </div>
 
             <div className="equipo-card">
@@ -61,7 +60,6 @@ function SobreNosotros() {
                 <img src={fotoIsi} alt="Foto de Isidora Villegas" />
               </div>
               <h3>[Isidora Villegas]</h3>
-              <p className="rol">[rol]</p>
             </div>            
             
             <div className="equipo-card">
@@ -69,7 +67,6 @@ function SobreNosotros() {
                 <img src={fotovero} alt="Foto de Verónica Torres" />
               </div>
               <h3>[Verónica Torres]</h3>
-              <p className="rol">[rol]</p>
             </div>            
             
             <div className="equipo-card">
@@ -77,7 +74,6 @@ function SobreNosotros() {
                 <img src={fotocris} alt="Foto de Cristobal Cabrera" />
               </div>
               <h3>[Cristobal Cabrera]</h3>
-              <p className="rol">[rol]</p>
             </div>            
             
             <div className="equipo-card">
@@ -85,7 +81,6 @@ function SobreNosotros() {
                 <img src={fotoalfo} alt="Foto de Alfonso Pavez" />
               </div>
               <h3>[Alfonso Pavez]</h3>
-              <p className="rol">[rol]</p>
             </div>            
             
                         

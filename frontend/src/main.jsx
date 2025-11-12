@@ -11,6 +11,7 @@ import { Credencial } from "./pages/Credencial.jsx";
 import Inicio from "./pages/Inicio.jsx";
 import { Diadia } from "./pages/diadia.jsx";
 import { SenalesDeAlerta } from "./pages/SenalesDeAlerta.jsx";
+import { QueEsElAutismo } from "./pages/QueEsElAutismo.jsx";
 
 //estilos
 import "./Styles/index.css";
@@ -22,12 +23,16 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Inicio />} />
-          <Route path="/sobre-nosotros" element={<SobreNosotros />} />
-          <Route path="/guia" element={<Guia />} />
-          <Route path="/contacto" element={<PáginadePrueba />} />
-          <Route path="/credencial" element={<Credencial />} />
-          <Route path="/diadia" element={<Diadia />} />
-          <Route path="/senalesdealerta" element={<SenalesDeAlerta />} />
+          <Route path="sobre-nosotros" element={<SobreNosotros />} />
+          <Route path="contacto" element={<PáginadePrueba />} />
+
+{/* Aca ir poniendo las rutas de las paginas de la guiaa, ojo la ruta sin / al comienzo!!! */}
+          <Route path="guia" element={<Guia />}>
+            <Route path="que-es-el-autismo" element={<QueEsElAutismo />} />          
+            <Route path="credencial" element={<Credencial />} />
+            <Route path="diadia" element={<Diadia />} />
+            <Route path="senalesdealerta" element={<SenalesDeAlerta />} />
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>

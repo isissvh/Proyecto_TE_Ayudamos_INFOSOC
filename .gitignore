@@ -1,0 +1,19 @@
+# Dependencias (¡Lo más importante!)
+frontend/node_modules
+
+# Archivos de build (producción)
+frontend/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Archivos de entorno local (¡nunca subir secretos!)
+.env.local
+.env.*.local
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
