@@ -3,7 +3,6 @@ import "../Styles/highlight.css";
 import HighlightArticle from "../components/HighlightArticle.jsx";
 import Mark from "../components/Mark.jsx";
 import AcordeonItem from "./AcordeonItem.jsx";
-import "./diadia.css";
 
 export function SenalesDeAlerta() {
   return (

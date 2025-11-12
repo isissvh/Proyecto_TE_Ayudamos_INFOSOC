@@ -12,6 +12,7 @@ import Inicio from "./pages/Inicio.jsx";
 import { Diadia } from "./pages/diadia.jsx";
 import { SenalesDeAlerta } from "./pages/SenalesDeAlerta.jsx";
 import { QueEsElAutismo } from "./pages/QueEsElAutismo.jsx";
+import { PrimerosPasos } from "./pages/PrimerosPasos.jsx";
 
 //estilos
 import "./Styles/index.css";
@@ -32,6 +33,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Route path="credencial" element={<Credencial />} />
             <Route path="diadia" element={<Diadia />} />
             <Route path="senalesdealerta" element={<SenalesDeAlerta />} />
+            <Route path="primeros-pasos" element={<PrimerosPasos />} />            
           </Route>
         </Route>
       </Routes>

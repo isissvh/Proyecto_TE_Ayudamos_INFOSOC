@@ -4,8 +4,6 @@ import React from "react";
 import "./Guia.css";
 import { NavLink, Outlet } from 'react-router-dom';
 
-
-
 export function Guia() {
   const getNavLinkClass = ({ isActive }) => {
     return isActive ? 'link-activo' : '';
@@ -64,7 +62,7 @@ export function Guia() {
             <NavLink to="/guia/grados" className={getNavLinkClass}>
               Grados
             </NavLink>
-            
+
             {/* --- GRUPO 4: RECURSOS Y TIPS --- */}
             <h4 className="sidebar-categoria">RECURSOS Y TIPS</h4>
             <NavLink to="/guia/diadia" className={getNavLinkClass}>
