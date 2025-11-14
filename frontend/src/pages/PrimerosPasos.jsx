@@ -16,12 +16,11 @@ export function PrimerosPasos() {
             <Mark tip = "Grupo de profesionales de distintas áreas que planifican y actúan en conjunto (con la familia) para evaluar, intervenir y hacer seguimiento con objetivos comunes."> equipo multidisciplinario</Mark> que puede incluir: 
           </p>
             <ul>
-                <li>Pediatra</li>
+                <li>Psiquiatra infantil</li>
                 <li>Neurólogo infantil</li>
                 <li>Psicólogo</li>
                 <li>Fonoaudiólogo</li>
                 <li>Terapeuta ocupacional</li>
-                <li>Trabajador social</li>
             </ul>
             <p>
                 Estos profesionales podrán evaluar y trabajar con las necesidades cognitivas específicas del paciente. 

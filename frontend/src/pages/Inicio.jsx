@@ -13,7 +13,7 @@ function Inicio() {
           sobre el espectro neurodivergente, siendo mucho más específicos, el
           Trastorno del Espectro Autista (TEA).
         </p>
-        <button className="cta-button" onClick={()=> navigate('/Guia')}>Saber más</button>
+        <button className="cta-button" onClick={()=> navigate('/Guia/que-es-el-autismo')}>Saber más</button>
       </section>
 
       <section className="info-section">

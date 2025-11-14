@@ -3,7 +3,6 @@ import "../Styles/highlight.css";
 import HighlightArticle from "../components/HighlightArticle.jsx";
 import Mark from "../components/Mark.jsx";
 import "./diadia.css";
-import bomdia from "../assets/bomdia.png";
 import AcordeonItem from "./AcordeonItem.jsx";
 
 export function Diadia() {
@@ -84,9 +83,6 @@ export function Diadia() {
               Usa pictogramas o alarmas con texto/voz según convenga.
             </p>
             </AcordeonItem>
-            <div className="image-container">
-              <img src={bomdia} alt="Bom dia" className="side-image" />
-            </div>
           </div>
         </div>
       </HighlightArticle>

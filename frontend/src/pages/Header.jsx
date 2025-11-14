@@ -25,10 +25,7 @@ export function Header() {
               <Link to="/sobre-nosotros">Sobre Nosotros</Link>
             </li>
             <li>
-              <Link to="/guia">Guía</Link>
-            </li>
-            <li>
-              <Link to="/contacto">Página de prueba</Link>
+              <Link to="/guia/que-es-el-autismo">Guía</Link>
             </li>
           </ul>
         </nav>

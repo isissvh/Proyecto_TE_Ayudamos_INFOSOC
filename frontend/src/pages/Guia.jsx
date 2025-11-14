@@ -30,16 +30,16 @@ export function Guia() {
             {/* --- GRUPO 2: DIAGNÓSTICO --- */}
             <h4 className="sidebar-categoria">DIAGNÓSTICO</h4>
             <NavLink to="/guia/que-test-me-sirven" className={getNavLinkClass}>
-              Qué test me sirven
+              ¿Qué test me sirven?
             </NavLink>
             <NavLink to="/guia/diagnostico-oficial" className={getNavLinkClass}>
-              Diagnostico oficial slay
+              Diagnóstico oficial
             </NavLink>
             <NavLink to="/guia/profesionales" className={getNavLinkClass}>
               Profesionales
             </NavLink>
             <NavLink to="/guia/diagnostico-renovacion" className={getNavLinkClass}>
-              Diagnostico: renovacion (pie)
+              Diagnóstico: renovacion (pie)
             </NavLink>
             <NavLink to="/guia/autismo-severo" className={getNavLinkClass}>
               Autismo severo
@@ -59,9 +59,9 @@ export function Guia() {
             <NavLink to="/guia/pie" className={getNavLinkClass}>
               PIE
             </NavLink>
-            <NavLink to="/guia/grados" className={getNavLinkClass}>
+            {/* <NavLink to="/guia/grados" className={getNavLinkClass}>
               Grados
-            </NavLink>
+            </NavLink> */}
 
             {/* --- GRUPO 4: RECURSOS Y TIPS --- */}
             <h4 className="sidebar-categoria">RECURSOS Y TIPS</h4>
@@ -74,10 +74,6 @@ export function Guia() {
             <NavLink to="/guia/tips-juguetes" className={getNavLinkClass}>
               Tips: Juguetes, actividades y cancelacion de ruido
             </NavLink>
-            <NavLink to="/guia/papu" className={getNavLinkClass}>
-              PAPU
-            </NavLink>
-
           </nav>
         </div>
         <section className="guia-items-parent">
