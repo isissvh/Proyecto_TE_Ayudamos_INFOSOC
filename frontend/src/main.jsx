@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App.jsx";
 import SobreNosotros from "./pages/SobreNosotros";
 import { Guia } from "./pages/Guia.jsx";
-import PáginadePrueba from "./pages/contacto.jsx";
 import { Credencial } from "./pages/Credencial.jsx";
 import Inicio from "./pages/Inicio.jsx";
 import { Diadia } from "./pages/diadia.jsx";
@@ -27,8 +26,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />}>
           <Route index element={<Inicio />} />
           <Route path="sobre-nosotros" element={<SobreNosotros />} />
-          <Route path="contacto" element={<PáginadePrueba />} />
-
 {/* Aca ir poniendo las rutas de las paginas de la guiaa, ojo la ruta sin / al comienzo!!! */}
           <Route path="guia" element={<Guia />}>
             <Route path="que-es-el-autismo" element={<QueEsElAutismo />} />          
