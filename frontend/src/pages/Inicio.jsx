@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/Inicio.css'
+import '../Styles/Inicio.css'
 import { useNavigate } from "react-router-dom";
 
 function Inicio() {

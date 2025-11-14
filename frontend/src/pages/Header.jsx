@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import logoImage from "../assets/logo.png";
 import nombre from "../assets/newnombre.png";
 
-import "../styles/Header.css";
+import "../Styles/Header.css";
 
 export function Header() {
   return (

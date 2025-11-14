@@ -11,11 +11,9 @@ function App() {
   return (
     <div className="container">
       <Header />
-
       <main>
         <Outlet />
       </main>
-
       <footer>
         <p>&copy; 2025 TE Ayudamos. Todos los derechos reservados.</p>
       </footer>

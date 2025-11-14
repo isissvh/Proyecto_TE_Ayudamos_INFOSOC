@@ -13,10 +13,12 @@ import { Diadia } from "./pages/diadia.jsx";
 import { SenalesDeAlerta } from "./pages/SenalesDeAlerta.jsx";
 import { QueEsElAutismo } from "./pages/QueEsElAutismo.jsx";
 import { PrimerosPasos } from "./pages/PrimerosPasos.jsx";
+import { AutismoSevero } from "./pages/AutismoSevero.jsx";
 
 //estilos
 import "./Styles/index.css";
 import "./Styles/highlight.css";
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -34,6 +36,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Route path="diadia" element={<Diadia />} />
             <Route path="senalesdealerta" element={<SenalesDeAlerta />} />
             <Route path="primeros-pasos" element={<PrimerosPasos />} />            
+            <Route path="autismo-severo" element={<AutismoSevero />} />            
           </Route>
         </Route>
       </Routes>
