@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App.jsx";
 import SobreNosotros from "./pages/SobreNosotros";
 import { Guia } from "./pages/Guia.jsx";
+import PáginadePrueba from "./pages/contacto.jsx";
 import { Credencial } from "./pages/Credencial.jsx";
 import Inicio from "./pages/Inicio.jsx";
 import { Diadia } from "./pages/diadia.jsx";
