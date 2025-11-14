@@ -8,9 +8,7 @@ import AcordeonItem from "./AcordeonItem.jsx";
 export function Diadia() {
   return (
     <div style={{ padding: "40px" }}>
-      <h2 style={{ textAlign: "center", marginBottom: "1em" }}>Día a día: estrategias prácticas</h2>
-
-      <HighlightArticle title="Consejos y rutinas (ejemplo)">
+      <HighlightArticle title="Día a día: estrategias prácticas">
         <div className="layout">
           <div className="text-container">
             <AcordeonItem title="Mañanas y rutinas">
